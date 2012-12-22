@@ -1,10 +1,16 @@
-<!doctype html>
-<html>
+<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 	<head>
 		<title>	Лекции по компьютерной графике </title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<link href='http://fonts.googleapis.com/css?family=Cuprum&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="ebook.css" type="text/css" media="screen" title="main" charset="utf-8"/>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script>
+  		$.post( "chapter1.txt", data, success, "json" );
+
+		</script>
+
 	</head>
 	<body>
 		<h1>Лекции по компьютерной графике </h1>
@@ -86,7 +92,43 @@
 			</li>
 		</ul>
 		<p id="content">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+			<table cellpadding="0" cellspacing="0" width="100%" height="100%">
+				<tr>
+					<td align="right" valign="middle">
+						<table>
+							<tr>
+								<td>
+									<!-- Use the following <object> tag to embed the Flash presentation into HTML document -->
+									<object id="presentation" width="722" height="577" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" align="right">
+										<param name="allowScriptAccess" value="sameDomain" />
+										<param name="movie" value="Лекция №1 Введение в компьютерную графику.swf" />
+										<param name="quality" value="high" />
+										<param name="bgcolor" value="#ffffff" />
+										<param name="allowFullScreen" value="true" />
+											<embed src="content/Лекция №1 Введение в компьютерную графику.swf" quality="high" background-color="#ffffff" width="722" height="577" name="presentation" align="right" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer" allowFullScreen="true" />
+									</object>
+									<!-- Use the following <object> tag to embed the Flash presentation into XHTML document --> 
+									<!--
+									<object id="presentation" width="722" height="577" type="application/x-shockwave-flash" data="Лекция №1 Введение в компьютерную графику.swf"> 
+										<param name="allowScriptAccess" value="sameDomain" /> 
+										<param name="movie" value="content/Лекция №1 Введение в компьютерную графику.swf" /> 
+										<param name="quality" value="high" /> 
+										<param name="bgcolor" value="#ffffff" /> 
+										<param name="allowFullScreen" value="true" /> 
+									</object>
+									-->
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a style="font-family: verdana; font-size: 11px; color: #0000CC" href="http://www.ispringsolutions.com/go/ispring-presentations" title="iSpring - PowerPoint to Flash converter">Created with iSpring</a>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+			<script type="text/javascript" src="fixprompt.js"/>
 		</p>
 	</body>
 </html>

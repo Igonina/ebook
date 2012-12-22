@@ -1,6 +1,6 @@
 body {
 	color: purple;
-	background: url("ebook-background.jpg") left bottom repeat;
+	background: url("img/ebook-background.jpg") left bottom repeat;
 	text-shadow: 1px 1px black;
 	font-family: 'Cuprum', sans-serif;
 }
@@ -28,7 +28,7 @@ h1 {
 	padding-top: 1.3%;
 	padding-bottom: 1.3%;
 	background-color: #000066;
-	background: url("ebook-contents.jpg") left bottom repeat;
+	background: url("img/ebook-contents.jpg") left bottom repeat;
 }
 
 #content {
